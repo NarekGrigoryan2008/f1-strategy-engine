@@ -1,0 +1,197 @@
+year,round,event_name,location,country,official_event_name,event_date,event_format,location_raw
+2018,1,Australian Grand Prix,Melbourne,Australia,FORMULA 1 2018 ROLEX AUSTRALIAN GRAND PRIX,2018-03-25,conventional,Melbourne
+2018,2,Bahrain Grand Prix,Sakhir,Bahrain,FORMULA 1 2018 GULF AIR BAHRAIN GRAND PRIX,2018-04-08,conventional,Sakhir
+2018,3,Chinese Grand Prix,Shanghai,China,FORMULA 1 2018 HEINEKEN CHINESE GRAND PRIX,2018-04-15,conventional,Shanghai
+2018,4,Azerbaijan Grand Prix,Baku,Azerbaijan,FORMULA 1 2018 AZERBAIJAN GRAND PRIX,2018-04-29,conventional,Baku
+2018,5,Spanish Grand Prix,Barcelona,Spain,FORMULA 1 GRAN PREMIO DE ESPAÑA EMIRATES 2018,2018-05-13,conventional,Barcelona
+2018,6,Monaco Grand Prix,Monaco,Monaco,FORMULA 1 GRAND PRIX DE MONACO 2018,2018-05-27,conventional,Monte Carlo
+2018,7,Canadian Grand Prix,Montréal,Canada,FORMULA 1 GRAND PRIX HEINEKEN DU CANADA 2018,2018-06-10,conventional,Montréal
+2018,8,French Grand Prix,Le Castellet,France,FORMULA 1 PIRELLI GRAND PRIX DE FRANCE 2018,2018-06-24,conventional,Le Castellet
+2018,9,Austrian Grand Prix,Spielberg,Austria,FORMULA 1 EYETIME GROSSER PREIS VON ÖSTERREICH 2018,2018-07-01,conventional,Spielberg
+2018,10,British Grand Prix,Silverstone,Great Britain,FORMULA 1 2018 ROLEX BRITISH GRAND PRIX,2018-07-08,conventional,Silverstone
+2018,11,German Grand Prix,Hockenheim,Germany,FORMULA 1 EMIRATES GROSSER PREIS VON DEUTSCHLAND 2018,2018-07-22,conventional,Hockenheim
+2018,12,Hungarian Grand Prix,Budapest,Hungary,FORMULA 1 ROLEX MAGYAR NAGYDÍJ 2018,2018-07-29,conventional,Budapest
+2018,13,Belgian Grand Prix,Spa-Francorchamps,Belgium,FORMULA 1 2018 JOHNNIE WALKER BELGIAN GRAND PRIX,2018-08-26,conventional,Spa-Francorchamps
+2018,14,Italian Grand Prix,Monza,Italy,FORMULA 1 GRAN PREMIO HEINEKEN D'ITALIA 2018,2018-09-02,conventional,Monza
+2018,15,Singapore Grand Prix,Singapore,Singapore,FORMULA 1 2018 SINGAPORE AIRLINES SINGAPORE GRAND PRIX,2018-09-16,conventional,Singapore
+2018,16,Russian Grand Prix,Sochi,Russia,FORMULA 1 2018 VTB RUSSIAN GRAND PRIX,2018-09-30,conventional,Sochi
+2018,17,Japanese Grand Prix,Suzuka,Japan,FORMULA 1 2018 HONDA JAPANESE GRAND PRIX,2018-10-07,conventional,Suzuka
+2018,18,United States Grand Prix,Austin,United States,FORMULA 1 PIRELLI 2018 UNITED STATES GRAND PRIX,2018-10-21,conventional,Austin
+2018,19,Mexican Grand Prix,Mexico City,Mexico,FORMULA 1 GRAN PREMIO DE MÉXICO 2018,2018-10-28,conventional,Mexico City
+2018,20,Brazilian Grand Prix,São Paulo,Brazil,FORMULA 1 GRANDE PRÊMIO HEINEKEN DO BRASIL 2018,2018-11-11,conventional,São Paulo
+2018,21,Abu Dhabi Grand Prix,Yas Island,United Arab Emirates,FORMULA 1 2018 ETIHAD AIRWAYS ABU DHABI GRAND PRIX,2018-11-25,conventional,Yas Marina
+2019,1,Australian Grand Prix,Melbourne,Australia,FORMULA 1 ROLEX AUSTRALIAN GRAND PRIX 2019,2019-03-17,conventional,Melbourne
+2019,2,Bahrain Grand Prix,Sakhir,Bahrain,FORMULA 1 GULF AIR BAHRAIN GRAND PRIX 2019,2019-03-31,conventional,Sakhir
+2019,3,Chinese Grand Prix,Shanghai,China,FORMULA 1 HEINEKEN CHINESE GRAND PRIX 2019,2019-04-14,conventional,Shanghai
+2019,4,Azerbaijan Grand Prix,Baku,Azerbaijan,FORMULA 1 SOCAR AZERBAIJAN GRAND PRIX 2019,2019-04-28,conventional,Baku
+2019,5,Spanish Grand Prix,Barcelona,Spain,FORMULA 1 EMIRATES GRAN PREMIO DE ESPAÑA 2019,2019-05-12,conventional,Barcelona
+2019,6,Monaco Grand Prix,Monaco,Monaco,FORMULA 1 GRAND PRIX DE MONACO 2019,2019-05-26,conventional,Monte Carlo
+2019,7,Canadian Grand Prix,Montréal,Canada,FORMULA 1 PIRELLI GRAND PRIX DU CANADA 2019,2019-06-09,conventional,Montréal
+2019,8,French Grand Prix,Le Castellet,France,FORMULA 1 PIRELLI GRAND PRIX DE FRANCE 2019,2019-06-23,conventional,Le Castellet
+2019,9,Austrian Grand Prix,Spielberg,Austria,FORMULA 1 MYWORLD GROSSER PREIS VON ÖSTERREICH 2019,2019-06-30,conventional,Spielberg
+2019,10,British Grand Prix,Silverstone,Great Britain,FORMULA 1 ROLEX BRITISH GRAND PRIX 2019,2019-07-14,conventional,Silverstone
+2019,11,German Grand Prix,Hockenheim,Germany,FORMULA 1 MERCEDES-BENZ GROSSER PREIS VON DEUTSCHLAND 2019,2019-07-28,conventional,Hockenheim
+2019,12,Hungarian Grand Prix,Budapest,Hungary,FORMULA 1 ROLEX MAGYAR NAGYDÍJ 2019,2019-08-04,conventional,Budapest
+2019,13,Belgian Grand Prix,Spa-Francorchamps,Belgium,FORMULA 1 JOHNNIE WALKER BELGIAN GRAND PRIX 2019,2019-09-01,conventional,Spa-Francorchamps
+2019,14,Italian Grand Prix,Monza,Italy,FORMULA 1 GRAN PREMIO HEINEKEN D'ITALIA 2019,2019-09-08,conventional,Monza
+2019,15,Singapore Grand Prix,Singapore,Singapore,FORMULA 1 SINGAPORE AIRLINES SINGAPORE GRAND PRIX 2019,2019-09-22,conventional,Singapore
+2019,16,Russian Grand Prix,Sochi,Russia,FORMULA 1 VTB RUSSIAN GRAND PRIX 2019,2019-09-29,conventional,Sochi
+2019,17,Japanese Grand Prix,Suzuka,Japan,FORMULA 1 JAPANESE GRAND PRIX 2019,2019-10-13,conventional,Suzuka
+2019,18,Mexican Grand Prix,Mexico City,Mexico,FORMULA 1 GRAN PREMIO DE MÉXICO 2019,2019-10-27,conventional,Mexico City
+2019,19,United States Grand Prix,Austin,United States,FORMULA 1 EMIRATES UNITED STATES GRAND PRIX 2019,2019-11-03,conventional,Austin
+2019,20,Brazilian Grand Prix,São Paulo,Brazil,FORMULA 1 HEINEKEN GRANDE PRÊMIO DO BRASIL 2019,2019-11-17,conventional,São Paulo
+2019,21,Abu Dhabi Grand Prix,Yas Island,Abu Dhabi,FORMULA 1 ETIHAD AIRWAYS ABU DHABI GRAND PRIX 2019,2019-12-01,conventional,Yas Island
+2020,1,Austrian Grand Prix,Spielberg,Austria,FORMULA 1 ROLEX GROSSER PREIS VON ÖSTERREICH 2020,2020-07-05,conventional,Spielberg
+2020,2,Styrian Grand Prix,Spielberg,Austria,FORMULA 1 PIRELLI GROSSER PREIS DER STEIERMARK 2020,2020-07-12,conventional,Spielberg
+2020,3,Hungarian Grand Prix,Budapest,Hungary,FORMULA 1 ARAMCO MAGYAR NAGYDÍJ 2020,2020-07-19,conventional,Budapest
+2020,4,British Grand Prix,Silverstone,Great Britain,FORMULA 1 PIRELLI BRITISH GRAND PRIX 2020,2020-08-02,conventional,Silverstone
+2020,5,70th Anniversary Grand Prix,Silverstone,Great Britain,EMIRATES FORMULA 1 70TH ANNIVERSARY GRAND PRIX 2020,2020-08-09,conventional,Silverstone
+2020,6,Spanish Grand Prix,Barcelona,Spain,FORMULA 1 ARAMCO GRAN PREMIO DE ESPAÑA 2020,2020-08-16,conventional,Barcelona
+2020,7,Belgian Grand Prix,Spa-Francorchamps,Belgium,FORMULA 1 ROLEX BELGIAN GRAND PRIX 2020,2020-08-30,conventional,Spa-Francorchamps
+2020,8,Italian Grand Prix,Monza,Italy,FORMULA 1 GRAN PREMIO HEINEKEN D’ITALIA 2020,2020-09-06,conventional,Monza
+2020,9,Tuscan Grand Prix,Mugello,Italy,FORMULA 1 PIRELLI GRAN PREMIO DELLA TOSCANA FERRARI 1000 2020,2020-09-13,conventional,Mugello
+2020,10,Russian Grand Prix,Sochi,Russia,FORMULA 1 VTB RUSSIAN GRAND PRIX 2020,2020-09-27,conventional,Sochi
+2020,11,Eifel Grand Prix,Nürburgring,Germany,FORMULA 1 ARAMCO GROSSER PREIS DER EIFEL 2020,2020-10-11,conventional,Nürburgring
+2020,12,Portuguese Grand Prix,Portimão,Portugal,FORMULA 1 HEINEKEN GRANDE PRÉMIO DE PORTUGAL 2020,2020-10-25,conventional,Portimão
+2020,13,Emilia Romagna Grand Prix,Imola,Italy,FORMULA 1 EMIRATES GRAN PREMIO DELL'EMILIA ROMAGNA 2020,2020-11-01,conventional,Imola
+2020,14,Turkish Grand Prix,Istanbul,Turkey,FORMULA 1 DHL TURKISH GRAND PRIX 2020,2020-11-15,conventional,Istanbul
+2020,15,Bahrain Grand Prix,Sakhir,Bahrain,FORMULA 1 GULF AIR BAHRAIN GRAND PRIX 2020,2020-11-29,conventional,Sakhir
+2020,16,Sakhir Grand Prix,Sakhir,Bahrain,FORMULA 1 ROLEX SAKHIR GRAND PRIX 2020,2020-12-06,conventional,Sakhir
+2020,17,Abu Dhabi Grand Prix,Yas Island,Abu Dhabi,FORMULA 1 ETIHAD AIRWAYS ABU DHABI GRAND PRIX 2020,2020-12-13,conventional,Yas Island
+2021,1,Bahrain Grand Prix,Sakhir,Bahrain,FORMULA 1 GULF AIR BAHRAIN GRAND PRIX 2021,2021-03-28,conventional,Sakhir
+2021,2,Emilia Romagna Grand Prix,Imola,Italy,FORMULA 1 PIRELLI GRAN PREMIO DEL MADE IN ITALY E DELL'EMILIA ROMAGNA 2021,2021-04-18,conventional,Imola
+2021,3,Portuguese Grand Prix,Portimão,Portugal,FORMULA 1 HEINEKEN GRANDE PRÉMIO DE PORTUGAL 2021,2021-05-02,conventional,Portimão
+2021,4,Spanish Grand Prix,Barcelona,Spain,FORMULA 1 ARAMCO GRAN PREMIO DE ESPAÑA 2021,2021-05-09,conventional,Barcelona
+2021,5,Monaco Grand Prix,Monaco,Monaco,FORMULA 1 GRAND PRIX DE MONACO 2021,2021-05-23,conventional,Monte Carlo
+2021,6,Azerbaijan Grand Prix,Baku,Azerbaijan,FORMULA 1 AZERBAIJAN GRAND PRIX 2021,2021-06-06,conventional,Baku
+2021,7,French Grand Prix,Le Castellet,France,FORMULA 1 EMIRATES GRAND PRIX DE FRANCE 2021,2021-06-20,conventional,Le Castellet
+2021,8,Styrian Grand Prix,Spielberg,Austria,FORMULA 1 BWT GROSSER PREIS DER STEIERMARK 2021,2021-06-27,conventional,Spielberg
+2021,9,Austrian Grand Prix,Spielberg,Austria,FORMULA 1 BWT GROSSER PREIS VON ÖSTERREICH 2021,2021-07-04,conventional,Spielberg
+2021,10,British Grand Prix,Silverstone,Great Britain,FORMULA 1 PIRELLI BRITISH GRAND PRIX 2021,2021-07-18,sprint,Silverstone
+2021,11,Hungarian Grand Prix,Budapest,Hungary,FORMULA 1 ROLEX MAGYAR NAGYDÍJ 2021,2021-08-01,conventional,Budapest
+2021,12,Belgian Grand Prix,Spa-Francorchamps,Belgium,FORMULA 1 ROLEX BELGIAN GRAND PRIX 2021,2021-08-29,conventional,Spa-Francorchamps
+2021,13,Dutch Grand Prix,Zandvoort,Netherlands,FORMULA 1 HEINEKEN DUTCH GRAND PRIX 2021,2021-09-05,conventional,Zandvoort
+2021,14,Italian Grand Prix,Monza,Italy,FORMULA 1 HEINEKEN GRAN PREMIO D’ITALIA 2021,2021-09-12,sprint,Monza
+2021,15,Russian Grand Prix,Sochi,Russia,FORMULA 1 VTB RUSSIAN GRAND PRIX 2021,2021-09-26,conventional,Sochi
+2021,16,Turkish Grand Prix,Istanbul,Turkey,FORMULA 1 ROLEX TURKISH GRAND PRIX 2021,2021-10-10,conventional,Istanbul
+2021,17,United States Grand Prix,Austin,United States,FORMULA 1 ARAMCO UNITED STATES GRAND PRIX 2021,2021-10-24,conventional,Austin
+2021,18,Mexico City Grand Prix,Mexico City,Mexico,FORMULA 1 GRAN PREMIO DE LA CIUDAD DE MÉXICO 2021,2021-11-07,conventional,Mexico City
+2021,19,São Paulo Grand Prix,São Paulo,Brazil,FORMULA 1 HEINEKEN GRANDE PRÊMIO DE SÃO PAULO 2021,2021-11-14,sprint,São Paulo
+2021,20,Qatar Grand Prix,Lusail,Qatar,FORMULA 1 OOREDOO QATAR GRAND PRIX 2021,2021-11-21,conventional,Lusail
+2021,21,Saudi Arabian Grand Prix,Jeddah,Saudi Arabia,FORMULA 1 STC SAUDI ARABIAN GRAND PRIX 2021,2021-12-05,conventional,Jeddah
+2021,22,Abu Dhabi Grand Prix,Yas Island,Abu Dhabi,FORMULA 1 ETIHAD AIRWAYS ABU DHABI GRAND PRIX 2021,2021-12-12,conventional,Yas Island
+2022,1,Bahrain Grand Prix,Sakhir,Bahrain,FORMULA 1 GULF AIR BAHRAIN GRAND PRIX 2022,2022-03-20,conventional,Sakhir
+2022,2,Saudi Arabian Grand Prix,Jeddah,Saudi Arabia,FORMULA 1 STC SAUDI ARABIAN GRAND PRIX 2022,2022-03-27,conventional,Jeddah
+2022,3,Australian Grand Prix,Melbourne,Australia,FORMULA 1 HEINEKEN AUSTRALIAN GRAND PRIX 2022,2022-04-10,conventional,Melbourne
+2022,4,Emilia Romagna Grand Prix,Imola,Italy,FORMULA 1 ROLEX GRAN PREMIO DEL MADE IN ITALY E DELL'EMILIA-ROMAGNA 2022,2022-04-24,sprint,Imola
+2022,5,Miami Grand Prix,Miami,United States,FORMULA 1 CRYPTO.COM MIAMI GRAND PRIX 2022,2022-05-08,conventional,Miami
+2022,6,Spanish Grand Prix,Barcelona,Spain,FORMULA 1 PIRELLI GRAN PREMIO DE ESPAÑA 2022,2022-05-22,conventional,Barcelona
+2022,7,Monaco Grand Prix,Monaco,Monaco,FORMULA 1 GRAND PRIX DE MONACO 2022,2022-05-29,conventional,Monaco
+2022,8,Azerbaijan Grand Prix,Baku,Azerbaijan,FORMULA 1 AZERBAIJAN GRAND PRIX 2022,2022-06-12,conventional,Baku
+2022,9,Canadian Grand Prix,Montréal,Canada,FORMULA 1 AWS GRAND PRIX DU CANADA 2022,2022-06-19,conventional,Montréal
+2022,10,British Grand Prix,Silverstone,Great Britain,FORMULA 1 LENOVO BRITISH GRAND PRIX 2022,2022-07-03,conventional,Silverstone
+2022,11,Austrian Grand Prix,Spielberg,Austria,FORMULA 1 ROLEX GROSSER PREIS VON ÖSTERREICH 2022,2022-07-10,sprint,Spielberg
+2022,12,French Grand Prix,Le Castellet,France,FORMULA 1 LENOVO GRAND PRIX DE FRANCE 2022,2022-07-24,conventional,Le Castellet
+2022,13,Hungarian Grand Prix,Budapest,Hungary,FORMULA 1 ARAMCO MAGYAR NAGYDÍJ 2022,2022-07-31,conventional,Budapest
+2022,14,Belgian Grand Prix,Spa-Francorchamps,Belgium,FORMULA 1 ROLEX BELGIAN GRAND PRIX 2022,2022-08-28,conventional,Spa-Francorchamps
+2022,15,Dutch Grand Prix,Zandvoort,Netherlands,FORMULA 1 HEINEKEN DUTCH GRAND PRIX 2022,2022-09-04,conventional,Zandvoort
+2022,16,Italian Grand Prix,Monza,Italy,FORMULA 1 PIRELLI GRAN PREMIO D’ITALIA 2022,2022-09-11,conventional,Monza
+2022,17,Singapore Grand Prix,Marina Bay,Singapore,FORMULA 1 SINGAPORE AIRLINES SINGAPORE GRAND PRIX 2022,2022-10-02,conventional,Marina Bay
+2022,18,Japanese Grand Prix,Suzuka,Japan,FORMULA 1 HONDA JAPANESE GRAND PRIX 2022,2022-10-09,conventional,Suzuka
+2022,19,United States Grand Prix,Austin,United States,FORMULA 1 ARAMCO UNITED STATES GRAND PRIX 2022,2022-10-23,conventional,Austin
+2022,20,Mexico City Grand Prix,Mexico City,Mexico,FORMULA 1 HEINEKEN GRAN PREMIO DE LA CIUDAD DE MÉXICO 2022,2022-10-30,conventional,Mexico City
+2022,21,São Paulo Grand Prix,São Paulo,Brazil,FORMULA 1 HEINEKEN GRANDE PRÊMIO DE SÃO PAULO 2022,2022-11-13,sprint,São Paulo
+2022,22,Abu Dhabi Grand Prix,Yas Island,Abu Dhabi,FORMULA 1 ETIHAD AIRWAYS ABU DHABI GRAND PRIX 2022,2022-11-20,conventional,Yas Island
+2023,1,Bahrain Grand Prix,Sakhir,Bahrain,FORMULA 1 GULF AIR BAHRAIN GRAND PRIX 2023,2023-03-05,conventional,Sakhir
+2023,2,Saudi Arabian Grand Prix,Jeddah,Saudi Arabia,FORMULA 1 STC SAUDI ARABIAN GRAND PRIX 2023,2023-03-19,conventional,Jeddah
+2023,3,Australian Grand Prix,Melbourne,Australia,FORMULA 1 ROLEX AUSTRALIAN GRAND PRIX 2023,2023-04-02,conventional,Melbourne
+2023,4,Azerbaijan Grand Prix,Baku,Azerbaijan,FORMULA 1 AZERBAIJAN GRAND PRIX 2023,2023-04-30,sprint_shootout,Baku
+2023,5,Miami Grand Prix,Miami,United States,FORMULA 1 CRYPTO.COM MIAMI GRAND PRIX 2023,2023-05-07,conventional,Miami
+2023,6,Monaco Grand Prix,Monaco,Monaco,FORMULA 1 GRAND PRIX DE MONACO 2023,2023-05-28,conventional,Monaco
+2023,7,Spanish Grand Prix,Barcelona,Spain,FORMULA 1 AWS GRAN PREMIO DE ESPAÑA 2023,2023-06-04,conventional,Barcelona
+2023,8,Canadian Grand Prix,Montréal,Canada,FORMULA 1 PIRELLI GRAND PRIX DU CANADA 2023,2023-06-18,conventional,Montréal
+2023,9,Austrian Grand Prix,Spielberg,Austria,FORMULA 1 ROLEX GROSSER PREIS VON ÖSTERREICH 2023,2023-07-02,sprint_shootout,Spielberg
+2023,10,British Grand Prix,Silverstone,Great Britain,FORMULA 1 ARAMCO BRITISH GRAND PRIX 2023,2023-07-09,conventional,Silverstone
+2023,11,Hungarian Grand Prix,Budapest,Hungary,FORMULA 1 QATAR AIRWAYS HUNGARIAN GRAND PRIX 2023,2023-07-23,conventional,Budapest
+2023,12,Belgian Grand Prix,Spa-Francorchamps,Belgium,FORMULA 1 MSC CRUISES BELGIAN GRAND PRIX 2023,2023-07-30,sprint_shootout,Spa-Francorchamps
+2023,13,Dutch Grand Prix,Zandvoort,Netherlands,FORMULA 1 HEINEKEN DUTCH GRAND PRIX 2023,2023-08-27,conventional,Zandvoort
+2023,14,Italian Grand Prix,Monza,Italy,FORMULA 1 PIRELLI GRAN PREMIO D’ITALIA 2023 ,2023-09-03,conventional,Monza
+2023,15,Singapore Grand Prix,Marina Bay,Singapore,FORMULA 1 SINGAPORE AIRLINES SINGAPORE GRAND PRIX 2023 ,2023-09-17,conventional,Marina Bay
+2023,16,Japanese Grand Prix,Suzuka,Japan,FORMULA 1 LENOVO JAPANESE GRAND PRIX 2023 ,2023-09-24,conventional,Suzuka
+2023,17,Qatar Grand Prix,Lusail,Qatar,FORMULA 1 QATAR AIRWAYS QATAR GRAND PRIX 2023,2023-10-08,sprint_shootout,Lusail
+2023,18,United States Grand Prix,Austin,United States,FORMULA 1 LENOVO UNITED STATES GRAND PRIX 2023,2023-10-22,sprint_shootout,Austin
+2023,19,Mexico City Grand Prix,Mexico City,Mexico,FORMULA 1 GRAN PREMIO DE LA CIUDAD DE MÉXICO 2023,2023-10-29,conventional,Mexico City
+2023,20,São Paulo Grand Prix,São Paulo,Brazil,FORMULA 1 ROLEX GRANDE PRÊMIO DE SÃO PAULO 2023,2023-11-05,sprint_shootout,São Paulo
+2023,21,Las Vegas Grand Prix,Las Vegas,United States,FORMULA 1 HEINEKEN SILVER LAS VEGAS GRAND PRIX 2023,2023-11-18,conventional,Las Vegas
+2023,22,Abu Dhabi Grand Prix,Yas Island,Abu Dhabi,FORMULA 1 ETIHAD AIRWAYS ABU DHABI GRAND PRIX 2023 ,2023-11-26,conventional,Yas Island
+2024,1,Bahrain Grand Prix,Sakhir,Bahrain,FORMULA 1 GULF AIR BAHRAIN GRAND PRIX 2024,2024-03-02,conventional,Sakhir
+2024,2,Saudi Arabian Grand Prix,Jeddah,Saudi Arabia,FORMULA 1 STC SAUDI ARABIAN GRAND PRIX 2024,2024-03-09,conventional,Jeddah
+2024,3,Australian Grand Prix,Melbourne,Australia,FORMULA 1 ROLEX AUSTRALIAN GRAND PRIX 2024,2024-03-24,conventional,Melbourne
+2024,4,Japanese Grand Prix,Suzuka,Japan,FORMULA 1 MSC CRUISES JAPANESE GRAND PRIX 2024,2024-04-07,conventional,Suzuka
+2024,5,Chinese Grand Prix,Shanghai,China,FORMULA 1 LENOVO CHINESE GRAND PRIX 2024,2024-04-21,sprint_qualifying,Shanghai
+2024,6,Miami Grand Prix,Miami,United States,FORMULA 1 CRYPTO.COM MIAMI GRAND PRIX 2024,2024-05-05,sprint_qualifying,Miami
+2024,7,Emilia Romagna Grand Prix,Imola,Italy,FORMULA 1 MSC CRUISES GRAN PREMIO DEL MADE IN ITALY E DELL'EMILIA-ROMAGNA 2024,2024-05-19,conventional,Imola
+2024,8,Monaco Grand Prix,Monaco,Monaco,FORMULA 1 GRAND PRIX DE MONACO 2024,2024-05-26,conventional,Monaco
+2024,9,Canadian Grand Prix,Montréal,Canada,FORMULA 1 AWS GRAND PRIX DU CANADA 2024,2024-06-09,conventional,Montréal
+2024,10,Spanish Grand Prix,Barcelona,Spain,FORMULA 1 ARAMCO GRAN PREMIO DE ESPAÑA 2024,2024-06-23,conventional,Barcelona
+2024,11,Austrian Grand Prix,Spielberg,Austria,FORMULA 1 QATAR AIRWAYS AUSTRIAN GRAND PRIX 2024,2024-06-30,sprint_qualifying,Spielberg
+2024,12,British Grand Prix,Silverstone,United Kingdom,FORMULA 1 QATAR AIRWAYS BRITISH GRAND PRIX 2024,2024-07-07,conventional,Silverstone
+2024,13,Hungarian Grand Prix,Budapest,Hungary,FORMULA 1 HUNGARIAN GRAND PRIX 2024,2024-07-21,conventional,Budapest
+2024,14,Belgian Grand Prix,Spa-Francorchamps,Belgium,FORMULA 1 ROLEX BELGIAN GRAND PRIX 2024,2024-07-28,conventional,Spa-Francorchamps
+2024,15,Dutch Grand Prix,Zandvoort,Netherlands,FORMULA 1 HEINEKEN DUTCH GRAND PRIX 2024,2024-08-25,conventional,Zandvoort
+2024,16,Italian Grand Prix,Monza,Italy,FORMULA 1 PIRELLI GRAN PREMIO D’ITALIA 2024,2024-09-01,conventional,Monza
+2024,17,Azerbaijan Grand Prix,Baku,Azerbaijan,FORMULA 1 QATAR AIRWAYS AZERBAIJAN GRAND PRIX 2024,2024-09-15,conventional,Baku
+2024,18,Singapore Grand Prix,Marina Bay,Singapore,FORMULA 1 SINGAPORE AIRLINES SINGAPORE GRAND PRIX 2024,2024-09-22,conventional,Marina Bay
+2024,19,United States Grand Prix,Austin,United States,FORMULA 1 PIRELLI UNITED STATES GRAND PRIX 2024,2024-10-20,sprint_qualifying,Austin
+2024,20,Mexico City Grand Prix,Mexico City,Mexico,FORMULA 1 GRAN PREMIO DE LA CIUDAD DE MÉXICO 2024,2024-10-27,conventional,Mexico City
+2024,21,São Paulo Grand Prix,São Paulo,Brazil,FORMULA 1 LENOVO GRANDE PRÊMIO DE SÃO PAULO 2024,2024-11-03,sprint_qualifying,São Paulo
+2024,22,Las Vegas Grand Prix,Las Vegas,United States,FORMULA 1 HEINEKEN SILVER LAS VEGAS GRAND PRIX 2024,2024-11-23,conventional,Las Vegas
+2024,23,Qatar Grand Prix,Lusail,Qatar,FORMULA 1 QATAR AIRWAYS QATAR GRAND PRIX 2024,2024-12-01,sprint_qualifying,Lusail
+2024,24,Abu Dhabi Grand Prix,Yas Island,United Arab Emirates,FORMULA 1 ETIHAD AIRWAYS ABU DHABI GRAND PRIX 2024,2024-12-08,conventional,Yas Island
+2025,1,Australian Grand Prix,Melbourne,Australia,FORMULA 1 LOUIS VUITTON AUSTRALIAN GRAND PRIX 2025,2025-03-16,conventional,Melbourne
+2025,2,Chinese Grand Prix,Shanghai,China,FORMULA 1 HEINEKEN CHINESE GRAND PRIX 2025,2025-03-23,sprint_qualifying,Shanghai
+2025,3,Japanese Grand Prix,Suzuka,Japan,FORMULA 1 LENOVO JAPANESE GRAND PRIX 2025 ,2025-04-06,conventional,Suzuka
+2025,4,Bahrain Grand Prix,Sakhir,Bahrain,FORMULA 1 GULF AIR BAHRAIN GRAND PRIX 2025,2025-04-13,conventional,Sakhir
+2025,5,Saudi Arabian Grand Prix,Jeddah,Saudi Arabia,FORMULA 1 STC SAUDI ARABIAN GRAND PRIX 2025,2025-04-20,conventional,Jeddah
+2025,6,Miami Grand Prix,Miami,United States,FORMULA 1 CRYPTO.COM MIAMI GRAND PRIX 2025,2025-05-04,sprint_qualifying,Miami Gardens
+2025,7,Emilia Romagna Grand Prix,Imola,Italy,FORMULA 1 AWS GRAN PREMIO DEL MADE IN ITALY E DELL'EMILIA-ROMAGNA 2025,2025-05-18,conventional,Imola
+2025,8,Monaco Grand Prix,Monaco,Monaco,FORMULA 1 TAG HEUER GRAND PRIX DE MONACO 2025,2025-05-25,conventional,Monaco
+2025,9,Spanish Grand Prix,Barcelona,Spain,FORMULA 1 ARAMCO GRAN PREMIO DE ESPAÑA 2025,2025-06-01,conventional,Barcelona
+2025,10,Canadian Grand Prix,Montréal,Canada,FORMULA 1 PIRELLI GRAND PRIX DU CANADA 2025,2025-06-15,conventional,Montréal
+2025,11,Austrian Grand Prix,Spielberg,Austria,FORMULA 1 MSC CRUISES AUSTRIAN GRAND PRIX 2025,2025-06-29,conventional,Spielberg
+2025,12,British Grand Prix,Silverstone,United Kingdom,FORMULA 1 QATAR AIRWAYS BRITISH GRAND PRIX 2025,2025-07-06,conventional,Silverstone
+2025,13,Belgian Grand Prix,Spa-Francorchamps,Belgium,FORMULA 1 MOËT & CHANDON BELGIAN GRAND PRIX 2025,2025-07-27,sprint_qualifying,Spa-Francorchamps
+2025,14,Hungarian Grand Prix,Budapest,Hungary,FORMULA 1 LENOVO HUNGARIAN GRAND PRIX 2025,2025-08-03,conventional,Budapest
+2025,15,Dutch Grand Prix,Zandvoort,Netherlands,FORMULA 1 HEINEKEN DUTCH GRAND PRIX 2025,2025-08-31,conventional,Zandvoort
+2025,16,Italian Grand Prix,Monza,Italy,FORMULA 1 PIRELLI GRAN PREMIO D’ITALIA 2025,2025-09-07,conventional,Monza
+2025,17,Azerbaijan Grand Prix,Baku,Azerbaijan,FORMULA 1 QATAR AIRWAYS AZERBAIJAN GRAND PRIX 2025,2025-09-21,conventional,Baku
+2025,18,Singapore Grand Prix,Marina Bay,Singapore,FORMULA 1 SINGAPORE AIRLINES SINGAPORE GRAND PRIX 2025,2025-10-05,conventional,Marina Bay
+2025,19,United States Grand Prix,Austin,United States,FORMULA 1 MSC CRUISES UNITED STATES GRAND PRIX 2025,2025-10-19,sprint_qualifying,Austin
+2025,20,Mexico City Grand Prix,Mexico City,Mexico,FORMULA 1 GRAN PREMIO DE LA CIUDAD DE MÉXICO 2025,2025-10-26,conventional,Mexico City
+2025,21,São Paulo Grand Prix,São Paulo,Brazil,FORMULA 1 MSC CRUISES GRANDE PRÊMIO DE SÃO PAULO 2025,2025-11-09,sprint_qualifying,São Paulo
+2025,22,Las Vegas Grand Prix,Las Vegas,United States,FORMULA 1 HEINEKEN LAS VEGAS GRAND PRIX 2025,2025-11-22,conventional,Las Vegas
+2025,23,Qatar Grand Prix,Lusail,Qatar,FORMULA 1 QATAR AIRWAYS QATAR GRAND PRIX 2025,2025-11-30,sprint_qualifying,Lusail
+2025,24,Abu Dhabi Grand Prix,Yas Island,United Arab Emirates,FORMULA 1 ETIHAD AIRWAYS ABU DHABI GRAND PRIX 2025,2025-12-07,conventional,Yas Island
+2026,1,Australian Grand Prix,Melbourne,Australia,FORMULA 1 QATAR AIRWAYS AUSTRALIAN GRAND PRIX 2026,2026-03-08,conventional,Melbourne
+2026,2,Chinese Grand Prix,Shanghai,China,FORMULA 1 HEINEKEN CHINESE GRAND PRIX 2026,2026-03-15,sprint_qualifying,Shanghai
+2026,3,Japanese Grand Prix,Suzuka,Japan,FORMULA 1 ARAMCO JAPANESE GRAND PRIX 2026,2026-03-29,conventional,Suzuka
+2026,4,Miami Grand Prix,Miami,United States,FORMULA 1 CRYPTO.COM MIAMI GRAND PRIX 2026,2026-05-03,sprint_qualifying,Miami Gardens
+2026,5,Canadian Grand Prix,Montréal,Canada,FORMULA 1 LENOVO GRAND PRIX DU CANADA 2026,2026-05-24,sprint_qualifying,Montréal
+2026,6,Monaco Grand Prix,Monaco,Monaco,FORMULA 1 LOUIS VUITTON GRAND PRIX DE MONACO 2026,2026-06-07,conventional,Monte Carlo
+2026,7,Barcelona Grand Prix,Barcelona,Spain,FORMULA 1 MSC CRUISES GRAN PREMIO DE BARCELONA-CATALUNYA 2026,2026-06-14,conventional,Barcelona
+2026,8,Austrian Grand Prix,Spielberg,Austria,FORMULA 1 LENOVO AUSTRIAN GRAND PRIX 2026,2026-06-28,conventional,Spielberg
+2026,9,British Grand Prix,Silverstone,United Kingdom,FORMULA 1 PIRELLI BRITISH GRAND PRIX 2026,2026-07-05,sprint_qualifying,Silverstone
+2026,10,Belgian Grand Prix,Spa-Francorchamps,Belgium,FORMULA 1 MOËT & CHANDON BELGIAN GRAND PRIX 2026,2026-07-19,conventional,Spa-Francorchamps
+2026,11,Hungarian Grand Prix,Budapest,Hungary,FORMULA 1 AWS HUNGARIAN GRAND PRIX 2026,2026-07-26,conventional,Budapest
+2026,12,Dutch Grand Prix,Zandvoort,Netherlands,FORMULA 1 HEINEKEN DUTCH GRAND PRIX 2026,2026-08-23,sprint_qualifying,Zandvoort
+2026,13,Italian Grand Prix,Monza,Italy,FORMULA 1 PIRELLI GRAN PREMIO D’ITALIA 2026,2026-09-06,conventional,Monza
+2026,14,Spanish Grand Prix,Madrid,Spain,FORMULA 1 TAG HEUER GRAN PREMIO DE ESPAÑA 2026,2026-09-13,conventional,Madrid
+2026,15,Azerbaijan Grand Prix,Baku,Azerbaijan,FORMULA 1 QATAR AIRWAYS AZERBAIJAN GRAND PRIX 2026,2026-09-26,conventional,Baku
+2026,16,Bahrain Grand Prix,Sakhir,Bahrain,FORMULA 1 GULF AIR BAHRAIN GRAND PRIX IN MALAYSIA 2026,2026-10-04,conventional,Kuala Lumpur
+2026,17,Singapore Grand Prix,Marina Bay,Singapore,FORMULA 1 SINGAPORE AIRLINES SINGAPORE GRAND PRIX 2026,2026-10-11,sprint_qualifying,Marina Bay
+2026,18,United States Grand Prix,Austin,United States,FORMULA 1 MSC CRUISES UNITED STATES GRAND PRIX 2026,2026-10-25,conventional,Austin
+2026,19,Mexico City Grand Prix,Mexico City,Mexico,FORMULA 1 GRAN PREMIO DE LA CIUDAD DE MÉXICO 2026,2026-11-01,conventional,Mexico City
+2026,20,São Paulo Grand Prix,São Paulo,Brazil,FORMULA 1 MSC CRUISES GRANDE PRÊMIO DE SÃO PAULO 2026,2026-11-08,conventional,São Paulo
+2026,21,Las Vegas Grand Prix,Las Vegas,United States,FORMULA 1 HEINEKEN LAS VEGAS GRAND PRIX 2026,2026-11-21,conventional,Las Vegas
+2026,22,Qatar Grand Prix,Lusail,Qatar,FORMULA 1 QATAR AIRWAYS QATAR GRAND PRIX 2026,2026-11-29,conventional,Lusail
+2026,23,Abu Dhabi Grand Prix,Yas Island,United Arab Emirates,FORMULA 1 ETIHAD AIRWAYS ABU DHABI GRAND PRIX 2026,2026-12-06,conventional,Yas Marina

@@ -1,0 +1,22 @@
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# FastF1's own on-disk cache of raw API responses - large, fully regenerable
+# by re-running scripts/02_pull_race_data.py against the FastF1 API.
+data/cache/
+
+# Raw per-race CSV pulls - large (lap-by-lap x 20 circuits x up to 9 seasons),
+# fully regenerable from data/cache/ or from FastF1 directly by re-running
+# scripts/02_pull_race_data.py. Not tracked to keep the repo small; the
+# derived/summary tables that the model and tool actually consume ARE tracked.
+data/raw/
+
+.DS_Store
+
+# Local Claude Code tooling state, not project source.
+.claude/
+
+# Over GitHub's 100MB file-size limit - regenerable, see README.md
+data/models/pit_hazard_model.joblib

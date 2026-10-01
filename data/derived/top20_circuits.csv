@@ -1,0 +1,21 @@
+location,races,years,countries,event_names
+Spielberg,11,"[2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026]",['Austria'],"['Austrian Grand Prix', 'Styrian Grand Prix']"
+Sakhir,10,"[2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026]",['Bahrain'],"['Bahrain Grand Prix', 'Sakhir Grand Prix']"
+Silverstone,10,"[2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026]","['Great Britain', 'United Kingdom']","['70th Anniversary Grand Prix', 'British Grand Prix']"
+Barcelona,9,"[2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026]",['Spain'],"['Barcelona Grand Prix', 'Spanish Grand Prix']"
+Budapest,9,"[2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026]",['Hungary'],['Hungarian Grand Prix']
+Monza,9,"[2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026]",['Italy'],['Italian Grand Prix']
+Spa-Francorchamps,9,"[2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026]",['Belgium'],['Belgian Grand Prix']
+Yas Island,9,"[2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026]","['Abu Dhabi', 'United Arab Emirates']",['Abu Dhabi Grand Prix']
+Austin,8,"[2018, 2019, 2021, 2022, 2023, 2024, 2025, 2026]",['United States'],['United States Grand Prix']
+Baku,8,"[2018, 2019, 2021, 2022, 2023, 2024, 2025, 2026]",['Azerbaijan'],['Azerbaijan Grand Prix']
+Mexico City,8,"[2018, 2019, 2021, 2022, 2023, 2024, 2025, 2026]",['Mexico'],"['Mexican Grand Prix', 'Mexico City Grand Prix']"
+Monaco,8,"[2018, 2019, 2021, 2022, 2023, 2024, 2025, 2026]",['Monaco'],['Monaco Grand Prix']
+São Paulo,8,"[2018, 2019, 2021, 2022, 2023, 2024, 2025, 2026]",['Brazil'],"['Brazilian Grand Prix', 'São Paulo Grand Prix']"
+Melbourne,7,"[2018, 2019, 2022, 2023, 2024, 2025, 2026]",['Australia'],['Australian Grand Prix']
+Montréal,7,"[2018, 2019, 2022, 2023, 2024, 2025, 2026]",['Canada'],['Canadian Grand Prix']
+Suzuka,7,"[2018, 2019, 2022, 2023, 2024, 2025, 2026]",['Japan'],['Japanese Grand Prix']
+Zandvoort,6,"[2021, 2022, 2023, 2024, 2025, 2026]",['Netherlands'],['Dutch Grand Prix']
+Imola,5,"[2020, 2021, 2022, 2024, 2025]",['Italy'],['Emilia Romagna Grand Prix']
+Jeddah,5,"[2021, 2022, 2023, 2024, 2025]",['Saudi Arabia'],['Saudi Arabian Grand Prix']
+Lusail,5,"[2021, 2023, 2024, 2025, 2026]",['Qatar'],['Qatar Grand Prix']

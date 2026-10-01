@@ -1,0 +1,10 @@
+fastf1
+pandas
+numpy
+scipy
+scikit-learn
+matplotlib
+requests
+lightgbm
+joblib
+statsmodels
