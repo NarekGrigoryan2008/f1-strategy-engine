@@ -7,25 +7,25 @@ laps** and **which compound**, with the reasoning behind the call.
 It's built and validated against **real historical F1 undercut/overcut
 outcomes** (2018-2026, 150 races, 20 circuits pulled from
 [FastF1](https://github.com/theOehrly/Fast-F1)) rather than a purely
-theoretical formula — the point is to be honest about how often it matches
+theoretical formula - the point is to be honest about how often it matches
 reality, with the misses explained, not to overclaim accuracy in a sport with
 real randomness (driver error, mechanical failure, other teams' unpredictable
 calls).
 
 ## Project status
 
-All six stages are built, run on real data, and validated — including Stage 5,
+All six stages are built, run on real data, and validated - including Stage 5,
 the Monte Carlo simulator, which was originally scoped as a stretch goal but
 was completed once more time became available than originally planned for.
 
 | Stage | Status |
 |---|---|
-| 0 — Data (150 races, 20 circuits, 2018-2026) | Complete |
-| 1 — Tire degradation + pit-loss models | Complete. Low R² is a diagnosed real finding, not an unfit model — and a follow-up check found the fitted slopes don't hold up out-of-sample across years either (see below), so they're best read as descriptive of the pooled sample, not a forward-validated constant |
-| 2 — Undercut/overcut classifier (physics + logistic regression) | Complete. 74.1% accuracy / 0.765 AUC deployed model, revisited with 2 new earned-their-place features and honest cross-validation |
-| 3 — Safety Car / VSC detection | Complete. 24/150 races (16%) independently verified |
-| 4 — Weather integration | Complete. Temperature-degradation effect tested and replicated on a held-out slice |
-| 5 — Monte Carlo strategy simulator | **Complete** (not a placeholder) — integrated into the tool as `recommend_strategy(..., include_monte_carlo=True)`, a supplementary cross-check alongside the primary logistic-regression-driven recommendation |
+| 0 - Data (150 races, 20 circuits, 2018-2026) | Complete |
+| 1 - Tire degradation + pit-loss models | Complete. Low R² is a diagnosed real finding, not an unfit model - and a follow-up check found the fitted slopes don't hold up out-of-sample across years either (see below), so they're best read as descriptive of the pooled sample, not a forward-validated constant |
+| 2 - Undercut/overcut classifier (physics + logistic regression) | Complete. 74.1% accuracy / 0.765 AUC deployed model, revisited with 2 new earned-their-place features and honest cross-validation |
+| 3 - Safety Car / VSC detection | Complete. 24/150 races (16%) independently verified |
+| 4 - Weather integration | Complete. Temperature-degradation effect tested and replicated on a held-out slice |
+| 5 - Monte Carlo strategy simulator | **Complete** (not a placeholder) - integrated into the tool as `recommend_strategy(..., include_monte_carlo=True)`, a supplementary cross-check alongside the primary logistic-regression-driven recommendation |
 
 ## What it does
 
@@ -42,7 +42,7 @@ print(rec.action, rec.compound, round(rec.confidence, 3))
 ```
 
 Add `include_monte_carlo=True` to also run the Stage 5 cross-check alongside the
-primary (logistic-regression-driven) recommendation above — it doesn't change
+primary (logistic-regression-driven) recommendation above - it doesn't change
 `action`/`compound`/`confidence`, but surfaces its own ranked options and reasoning:
 
 ```python
@@ -66,37 +66,37 @@ Monte Carlo cross-check enabled via `include_monte_carlo=True`).
 
 **Physics alone predicts real undercut/overcut outcomes worse than just guessing.**
 A physics-only threshold (tire degradation math vs. pit-lane time loss) scores
-**29.4% accuracy** on real, held-out 2025-2026 attempts — worse than always
+**29.4% accuracy** on real, held-out 2025-2026 attempts - worse than always
 predicting "success" (71.3% baseline). A logistic regression fit on 1,362 real
-labeled attempts does modestly better — **74.1% accuracy, AUC 0.765 on the most
+labeled attempts does modestly better - **74.1% accuracy, AUC 0.765 on the most
 recent test split; a more honest cross-validated estimate across three
 expanding-window folds is 72.3% ± 1.4%** (single-split numbers here carry real
-sampling noise — checked directly, not assumed). The gap between
+sampling noise - checked directly, not assumed). The gap between
 physics and the fitted model is the project's core result: **real F1 track
 position through a pit sequence is far "stickier" than lap-time math alone
-predicts** — pit-lane logistics, overtaking difficulty, and the fact both cars
+predicts** - pit-lane logistics, overtaking difficulty, and the fact both cars
 pay a similar pit-loss cost matter more than tire physics for who ends up ahead.
 
 ![Physics vs. empirical model accuracy](charts/stage2_model_comparison.png)
 
-**More machinery isn't automatically better — checked, not assumed, and then
+**More machinery isn't automatically better - checked, not assumed, and then
 diagnosed rather than left alone.** Stage 5 adds a real Monte Carlo simulator:
 instead of assuming a rival never pits (the Stage 1-4 tool's known limitation),
 it samples the rival's pit lap from a hazard model fit on 157,538 real
 driver-laps, and Safety Car/VSC occurrence from Stage 3's real hazard curve.
 First validation (same 286 held-out real attempts, same honest methodology as
-Stage 2): **60.8% accuracy / AUC 0.617 — didn't beat the 74.1% logistic
+Stage 2): **60.8% accuracy / AUC 0.617 - didn't beat the 74.1% logistic
 regression, or even the 71.3% majority-class baseline.** Rather than stop there,
 traced the cause: the simulator decided each outcome with a hard cutoff on
 Stage 1's honestly-weak degradation slopes. Replaced that with a fitted,
 calibrated probability (`P(success | physics_final_gap, tire_age_a, tire_age_b,
-direction)`, sampled as a genuine per-draw Bernoulli outcome) — **72.4%
+direction)`, sampled as a genuine per-draw Bernoulli outcome) - **72.4%
 accuracy, AUC 0.747**, now beating the baseline and closing most (not all) of
 the 13.3-point gap to logistic regression. Two further fixes were tried and
 tested the same rigorous way: driver-specific tire management (measurably
-*hurt* accuracy, 72.4% → 70.3% — dropped) and a per-lap "persistence" term
+*hurt* accuracy, 72.4% → 70.3% - dropped) and a per-lap "persistence" term
 (checked first, found to be identically zero by construction, not just hard to
-estimate — skipped). Kept in the tool as a supplementary, clearly-labeled
+estimate - skipped). Kept in the tool as a supplementary, clearly-labeled
 cross-check (`include_monte_carlo=True`) rather than replacing the primary
 recommendation, since it's still narrowly behind the classifier.
 
@@ -105,14 +105,14 @@ recommendation, since it's still narrowly behind the classifier.
 **Revisiting the classifier itself.** Went back and tested four new candidate
 features individually (team pit-crew speed, out-lap traffic, a gap×tire-age
 interaction, race progress as a fraction) rather than batch-adding them. Two
-earned their place (team pit-crew speed — independently validated by a real
+earned their place (team pit-crew speed - independently validated by a real
 sanity check: Red Bull Racing shows up as the fastest crew in multiple separate
-years, matching its well-known real-world reputation — and the gap×tire-age
+years, matching its well-known real-world reputation - and the gap×tire-age
 interaction); two didn't (out-lap traffic wasn't significant; race progress
 added nothing lap number didn't already capture). Also investigated the
 model's one counterintuitive coefficient directly (does older own-tire-age
 really *reduce* predicted success?) via variance inflation factors and a
-refit-without-the-correlated-feature test — real effect, not a collinearity
+refit-without-the-correlated-feature test - real effect, not a collinearity
 artifact.
 
 ## Setup
@@ -124,9 +124,9 @@ py -3.11 -m venv venv          # Python 3.11 specifically - newer releases lag o
 
 ## Running the pipeline
 
-Scripts are numbered in the order they were actually built and run — each is a
+Scripts are numbered in the order they were actually built and run - each is a
 real, executable step, not illustrative pseudocode. Re-running from scratch on a
-fresh clone will re-pull all data from FastF1 (slow — FastF1 rate-limits API calls)
+fresh clone will re-pull all data from FastF1 (slow - FastF1 rate-limits API calls)
 since `data/raw/` and `data/cache/` are gitignored as regenerable.
 `data/derived/` and `data/models/` (the actual outputs) are committed, except
 `data/models/pit_hazard_model.joblib` (134MB, over GitHub's file-size limit) -
@@ -158,8 +158,8 @@ the raw laps that dataset is built from, is already done).
 | `20_stage2_new_features.py` | Builds candidate features for the Stage 2 classifier revisit (team pit-crew speed, out-lap traffic, race progress) |
 | `21_stage2_test_features.py` | Tests each new feature individually, selects the final combined feature set (2 kept, 2 dropped) |
 | `22_stage5_fit_calibration.py` | Fits the calibrated outcome-probability model that replaced the Monte Carlo simulator's hard physics cutoff (60.8% → 72.4% accuracy) |
-| `23_stage1_cv_stability.py` | Expanding-window stability check on Stage 1's degradation fits — finds they don't hold up out-of-sample across years |
-| `24_stage4_temperature_holdout_check.py` | Re-checks the temperature-degradation effect on the 2025-2026 holdout alone — replicates cleanly |
+| `23_stage1_cv_stability.py` | Expanding-window stability check on Stage 1's degradation fits - finds they don't hold up out-of-sample across years |
+| `24_stage4_temperature_holdout_check.py` | Re-checks the temperature-degradation effect on the 2025-2026 holdout alone - replicates cleanly |
 
 ## Project structure
 
@@ -176,15 +176,15 @@ charts/         diagnostic + portfolio charts
 ## Honest limitations
 
 - **Compound labels (SOFT/MEDIUM/HARD) are relative to each race weekend, not a
-  fixed physical compound** — pooling them across 2018-2026 blends different
+  fixed physical compound** - pooling them across 2018-2026 blends different
   actual rubber compounds under the same label. Noted, not fixed.
 - **Tire degradation is a real but small effect** relative to driver/traffic
-  noise in a simple single-variable fit — most (circuit, compound) R² values are
+  noise in a simple single-variable fit - most (circuit, compound) R² values are
   under 0.05 for dry compounds, reported honestly rather than chased with added
   model complexity that would violate the project's "deliberately simple" design.
   Checked further, not just left there: an expanding-window CV (fit on earlier
-  years, test on later ones — same methodology used for Stage 2's classifier)
-  found the fitted slopes do NOT hold up well over time — **median out-of-sample
+  years, test on later ones - same methodology used for Stage 2's classifier)
+  found the fitted slopes do NOT hold up well over time - **median out-of-sample
   R² was negative in all 3 tested folds** (a line fit on earlier years predicts
   later years worse than just guessing their average), with weak, inconsistent
   slope stability across folds (correlation 0.65, 0.09, 0.01). Most likely tied
@@ -195,21 +195,21 @@ charts/         diagnostic + portfolio charts
   on an independent check: refit the exact same interaction model on the
   2025-2026 slice alone (never checked in isolation before) and got an
   essentially identical coefficient (+0.00115 vs. the original +0.00111
-  sec/lap/°C, both p<0.0001) — real, stable signal, not a pooled-sample
+  sec/lap/°C, both p<0.0001) - real, stable signal, not a pooled-sample
   artifact. Same checking method as the Stage 1 finding above, opposite
-  honest result — both reported with equal weight.
+  honest result - both reported with equal weight.
 - **24/150 races (16%) have been manually verified against Wikipedia/race-control
-  logs** for Stage 3 (SC/VSC detection) — up from an initial 6-race pass, mixing
+  logs** for Stage 3 (SC/VSC detection) - up from an initial 6-race pass, mixing
   adversarial and random picks. Caught and fixed 3 real, understood issues (a
   race run entirely behind the Safety Car; a red flag fragmented by a lap-
   numbering gap during a full stoppage; two false-positive VSCs from apparent
   TrackStatus noise in a very recent race). Also found that some apparent
   "misses" were actually imprecision in the Wikipedia *summary*, not the
-  detector — resolved by checking the primary race-control log directly. Still
-  a sample, not an audit — the other 126 races (84%) haven't been individually
+  detector - resolved by checking the primary race-control log directly. Still
+  a sample, not an audit - the other 126 races (84%) haven't been individually
   checked.
 - **Stage 5's Monte Carlo simulator still doesn't quite beat the simpler Stage 2
-  model** on real held-out accuracy — 72.4% after a diagnosed, targeted fix
+  model** on real held-out accuracy - 72.4% after a diagnosed, targeted fix
   (replacing a hard physics cutoff with a calibrated probability), up from an
   original 60.8%, against the classifier's 74.1%. Two further fixes were tried
   and rejected the same rigorous way (driver-specific tire management measurably
@@ -217,5 +217,5 @@ charts/         diagnostic + portfolio charts
   zero by construction, not fit). Kept as a supplementary cross-check, not the
   primary decision engine.
 - **The rival's post-stop compound is assumed** (defaults to MEDIUM) in the
-  Monte Carlo simulation, since the real choice isn't knowable in advance — a
+  Monte Carlo simulation, since the real choice isn't knowable in advance - a
   documented simplification, not a fitted value.
