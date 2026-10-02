@@ -26,13 +26,13 @@ from src.paths import CHARTS_DIR
 RESULTS = [
     ("Physics threshold\n(Part A, no outcome data)", 0.294, "#C0362C"),
     ("Always predict\n\"success\" (baseline)", 0.713, "#8C8C8C"),
-    ("Logistic regression\n(Part B - deployed, more stable across years)", 0.741, "#1B7F3E"),
+    ("Logistic regression\n(Part B - deployed)", 0.741, "#1B7F3E"),
     ("Gradient-boosted\n(LightGBM)", 0.748, "#4C7EA8"),
 ]
 
 
 def main():
-    fig, ax = plt.subplots(figsize=(7, 5.5))
+    fig, ax = plt.subplots(figsize=(8.5, 5.5))
     labels = [r[0] for r in RESULTS]
     values = [r[1] for r in RESULTS]
     colors = [r[2] for r in RESULTS]
@@ -48,7 +48,7 @@ def main():
     ax.spines["top"].set_visible(False)
     ax.spines["right"].set_visible(False)
     ax.spines["left"].set_visible(False)
-    ax.tick_params(left=False)
+    ax.tick_params(left=False, labelsize=9)
     ax.set_yticks([])
     ax.grid(False)
     ax.axhline(0, color="#333333", linewidth=0.8, zorder=1)
