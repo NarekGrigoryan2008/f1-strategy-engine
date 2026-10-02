@@ -12,6 +12,8 @@ reality, with the misses explained, not to overclaim accuracy in a sport with
 real randomness (driver error, mechanical failure, other teams' unpredictable
 calls).
 
+**Full write-up (paper):** [narekgrigoryan2008.github.io/f1-strategy-engine](https://narekgrigoryan2008.github.io/f1-strategy-engine/)
+
 ## Project status
 
 All six stages are built, run on real data, and validated - including Stage 5,

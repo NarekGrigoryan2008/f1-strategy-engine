@@ -4,6 +4,8 @@ title: Does pitting now actually gain track position? A data-driven F1 strategy 
 
 # Does pitting now actually gain track position? A data-driven F1 strategy tool
 
+**Code:** [github.com/NarekGrigoryan2008/f1-strategy-engine](https://github.com/NarekGrigoryan2008/f1-strategy-engine)
+
 ## Abstract
 
 Race strategists face one recurring question: if I pit right now, does it actually gain me
